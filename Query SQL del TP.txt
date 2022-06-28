@@ -1,0 +1,57 @@
+-- Creacion de tablas
+CREATE TABLE Usuarios (
+dni int not null PRIMARY KEY,
+nombre varchar(50) not null,
+apellido varchar(50) not null,
+email varchar(60) not null,
+clave varchar(60) not null,
+telefono numeric(10,0) not null,
+nivel int not null
+);
+
+CREATE TABLE Clientes (
+cuilDni numeric(11,0) not null PRIMARY KEY,
+nombre varchar(50) not null,
+email varchar(60) not null,
+telefono numeric(10,0) not null,
+calle varchar(50) not null,
+numeracion int not null
+);
+
+CREATE TABLE Proveedores (
+cuilDni numeric(11,0) not null PRIMARY KEY,
+nombre varchar(50) not null,
+email varchar(60) not null,
+ciudad varchar(50) not null,
+telefono numeric(10,0) not null,
+calle varchar(50) not null,
+numeracion int not null
+);
+
+CREATE TABLE Ventas (
+id int not null PRIMARY KEY,
+producto varchar(50) not null,
+cantidad int not null,
+precio numeric(10,2) not null,
+fecha varchar(10) not null,
+vendedorDni int not null,
+clienteCuilDni numeric(11,0) not null
+);
+
+CREATE TABLE Compras (
+id int not null PRIMARY KEY,
+producto varchar(50) not null,
+cantidad int not null,
+precio numeric(10,2) not null,
+fecha varchar(10) not null,
+proveedorCuilDni numeric(11,0) not null
+);
+
+-- Creacion de llaves foraneas
+ALTER TABLE Ventas
+ADD FOREIGN KEY (vendedorDni) REFERENCES Usuarios(dni);
+ALTER TABLE Ventas
+ADD FOREIGN KEY (clienteCuilDni) REFERENCES Clientes(cuilDni);
+
+ALTER TABLE Compras
+ADD FOREIGN KEY (proveedorCuilDni) REFERENCES Proveedores(cuilDni);

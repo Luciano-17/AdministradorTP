@@ -1,0 +1,33 @@
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\bin\Debug\TrabajoPractico.exe.config
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\bin\Debug\TrabajoPractico.exe
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\bin\Debug\TrabajoPractico.pdb
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.csproj.AssemblyReference.cache
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.csproj.SuggestedBindingRedirects.cache
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.Properties.Resources.resources
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.csproj.GenerateResource.cache
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.csproj.CoreCompileInputs.cache
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.exe
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.pdb
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.Administrador.resources
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.Form1.resources
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.NuevoUsuarios.resources
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.ClientesForm.resources
+C:\Users\Luciano Villarreal\Desktop\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.ProveedoresForm.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\bin\Debug\TrabajoPractico.exe.config
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\bin\Debug\TrabajoPractico.exe
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\bin\Debug\TrabajoPractico.pdb
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.csproj.AssemblyReference.cache
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.csproj.SuggestedBindingRedirects.cache
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.Administrador.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.ClientesForm.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.Form1.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.NuevoUsuarios.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.Properties.Resources.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.ProveedoresForm.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.csproj.GenerateResource.cache
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.csproj.CoreCompileInputs.cache
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.exe
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.pdb
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.UsuariosForm.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.ComprasForm.resources
+C:\Luciano\Cervantes\Año 2\3° semestre\Programación III\Trabajo Practico\TrabajoPractico\obj\Debug\TrabajoPractico.VentasForm.resources
