@@ -23,9 +23,9 @@ namespace TrabajoPractico
             return dt;
         }
 
-        public DataTable consultarVenta(int id)
+        public DataTable consultarVenta(decimal cuilDni)
         {
-            string sqlStr = "SELECT * FROM Ventas WHERE id = '" + id + "'";
+            string sqlStr = "SELECT * FROM Ventas WHERE clienteCuilDni = '" + cuilDni + "'";
 
             var da = new SqlDataAdapter(sqlStr, conectar());
             var ds = new DataSet();
@@ -79,7 +79,7 @@ namespace TrabajoPractico
         {
             try
             {
-                var sel = "DELETE FROM Compras WHERE id = '" + id + "'";
+                var sel = "DELETE FROM Ventas WHERE id = '" + id + "'";
 
                 SqlCommand com = new SqlCommand(sel, conectar());
 

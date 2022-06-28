@@ -104,7 +104,7 @@ namespace TrabajoPractico
                 var dt = new DataTable();
                 var co = new ComprasMetodos();
 
-                dt = co.consultarCompra(Convert.ToInt32(txtProveedorOp.Text));
+                dt = co.consultarCompra(Convert.ToDecimal(txtProveedorOp.Text));
 
                 if (dt.Rows.Count != 0)
                 {
@@ -119,7 +119,7 @@ namespace TrabajoPractico
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            bool error = evaluarProveedorOp();
+            bool error = evaluarIdOp();
 
             if (error)
             {
@@ -133,7 +133,7 @@ namespace TrabajoPractico
                 if (resp == DialogResult.Yes)
                 {
                     var coMetodo = new ComprasMetodos();
-                    bool borrar = coMetodo.borrarCompra(Convert.ToInt32(txtProveedorOp.Text));
+                    bool borrar = coMetodo.borrarCompra(Convert.ToInt32(txtIdOp.Text));
 
                     if (borrar == false)
                     {
@@ -257,7 +257,26 @@ namespace TrabajoPractico
 
             if ((txtProveedorOp.Text.Length < 8 && txtProveedorOp.Text.Length > 11) || txtProveedorOp.Text == "")
             {
-                MessageBox.Show("Cuil o dni del proveedor para buscar o borrar incorrecto");
+                MessageBox.Show("Cuil o dni del proveedor para buscar incorrecto");
+                txtProveedorOp.Text = "";
+                txtProveedorOp.Focus();
+                error = true;
+            }
+            else
+            {
+                error = false;
+            }
+
+            return error;
+        }
+
+        private bool evaluarIdOp()
+        {
+            bool error;
+
+            if (txtIdOp.Text == "")
+            {
+                MessageBox.Show("Id de la compra para borrar incorrecto");
                 txtProveedorOp.Text = "";
                 txtProveedorOp.Focus();
                 error = true;

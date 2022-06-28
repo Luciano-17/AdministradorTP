@@ -96,7 +96,7 @@ namespace TrabajoPractico
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            bool error = evaluarIdOp();
+            bool error = evaluarClienteOp();
 
             if (error)
             {
@@ -108,7 +108,7 @@ namespace TrabajoPractico
                 var dt = new DataTable();
                 var ve = new VentasMetodos();
 
-                dt = ve.consultarVenta(Convert.ToInt32(txtIdOp.Text));
+                dt = ve.consultarVenta(Convert.ToDecimal(txtClienteOp.Text));
 
                 if (dt.Rows.Count != 0)
                 {
@@ -264,13 +264,32 @@ namespace TrabajoPractico
             return error;
         }
 
+        private bool evaluarClienteOp()
+        {
+            bool error;
+
+            if ((txtClienteOp.Text.Length < 8 && txtClienteOp.Text.Length > 11) || txtClienteOp.Text == "")
+            {
+                MessageBox.Show("Cliente para buscar incorrecto");
+                txtClienteOp.Text = "";
+                txtClienteOp.Focus();
+                error = true;
+            }
+            else
+            {
+                error = false;
+            }
+
+            return error;
+        }
+
         private bool evaluarIdOp()
         {
             bool error;
 
             if (txtIdOp.Text == "")
             {
-                MessageBox.Show("Id para buscar o borrar incorrecto");
+                MessageBox.Show("Id para borrar incorrecto");
                 txtIdOp.Text = "";
                 txtIdOp.Focus();
                 error = true;

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtIdOp = new System.Windows.Forms.TextBox();
+            this.txtClienteOp = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.txtCantidad = new System.Windows.Forms.TextBox();
@@ -49,20 +49,23 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtIdOp = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVentas)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtIdOp
+            // txtClienteOp
             // 
-            this.txtIdOp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdOp.Location = new System.Drawing.Point(649, 478);
-            this.txtIdOp.Name = "txtIdOp";
-            this.txtIdOp.Size = new System.Drawing.Size(167, 27);
-            this.txtIdOp.TabIndex = 64;
+            this.txtClienteOp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtClienteOp.Location = new System.Drawing.Point(735, 478);
+            this.txtClienteOp.Name = "txtClienteOp";
+            this.txtClienteOp.Size = new System.Drawing.Size(167, 27);
+            this.txtClienteOp.TabIndex = 64;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(822, 481);
+            this.btnBuscar.Location = new System.Drawing.Point(908, 478);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 63;
@@ -73,7 +76,7 @@
             // btnBorrar
             // 
             this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBorrar.Location = new System.Drawing.Point(903, 481);
+            this.btnBorrar.Location = new System.Drawing.Point(908, 527);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(75, 23);
             this.btnBorrar.TabIndex = 62;
@@ -254,16 +257,47 @@
             this.label6.TabIndex = 67;
             this.label6.Text = "Fecha:";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(698, 530);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 20);
+            this.label7.TabIndex = 74;
+            this.label7.Text = "ID:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(663, 481);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(66, 20);
+            this.label9.TabIndex = 73;
+            this.label9.Text = "Cliente:";
+            // 
+            // txtIdOp
+            // 
+            this.txtIdOp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdOp.Location = new System.Drawing.Point(735, 527);
+            this.txtIdOp.Name = "txtIdOp";
+            this.txtIdOp.Size = new System.Drawing.Size(167, 27);
+            this.txtIdOp.TabIndex = 72;
+            // 
             // VentasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(999, 683);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtIdOp);
             this.Controls.Add(this.txtFecha);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtClienteCuilDni);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtIdOp);
+            this.Controls.Add(this.txtClienteOp);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.txtCantidad);
@@ -290,7 +324,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtIdOp;
+        private System.Windows.Forms.TextBox txtClienteOp;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.TextBox txtCantidad;
@@ -311,5 +345,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtIdOp;
     }
 }

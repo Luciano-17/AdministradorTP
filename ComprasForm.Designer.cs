@@ -47,6 +47,9 @@
             this.btnBorrar = new System.Windows.Forms.Button();
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtIdOp = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCompras)).BeginInit();
             this.SuspendLayout();
             // 
@@ -190,14 +193,14 @@
             // txtProveedorOp
             // 
             this.txtProveedorOp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProveedorOp.Location = new System.Drawing.Point(710, 429);
+            this.txtProveedorOp.Location = new System.Drawing.Point(791, 429);
             this.txtProveedorOp.Name = "txtProveedorOp";
             this.txtProveedorOp.Size = new System.Drawing.Size(167, 27);
             this.txtProveedorOp.TabIndex = 47;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(883, 432);
+            this.btnBuscar.Location = new System.Drawing.Point(964, 432);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 46;
@@ -208,7 +211,7 @@
             // btnBorrar
             // 
             this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBorrar.Location = new System.Drawing.Point(964, 432);
+            this.btnBorrar.Location = new System.Drawing.Point(964, 481);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(75, 23);
             this.btnBorrar.TabIndex = 45;
@@ -234,11 +237,42 @@
             this.label5.TabIndex = 48;
             this.label5.Text = "Fecha:";
             // 
+            // txtIdOp
+            // 
+            this.txtIdOp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdOp.Location = new System.Drawing.Point(791, 478);
+            this.txtIdOp.Name = "txtIdOp";
+            this.txtIdOp.Size = new System.Drawing.Size(167, 27);
+            this.txtIdOp.TabIndex = 50;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(695, 432);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(90, 20);
+            this.label6.TabIndex = 51;
+            this.label6.Text = "Proveedor:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(754, 481);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 20);
+            this.label7.TabIndex = 52;
+            this.label7.Text = "ID:";
+            // 
             // ComprasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1055, 681);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtIdOp);
             this.Controls.Add(this.txtFecha);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtProveedorOp);
@@ -286,5 +320,8 @@
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtIdOp;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

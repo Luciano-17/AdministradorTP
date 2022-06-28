@@ -23,9 +23,9 @@ namespace TrabajoPractico
             return dt;
         }
 
-        public DataTable consultarCompra(int id)
+        public DataTable consultarCompra(decimal cuilDni)
         {
-            string sqlStr = "SELECT * FROM Compras WHERE id = '" + id + "'";
+            string sqlStr = "SELECT * FROM Compras WHERE proveedorCuilDni = '" + cuilDni + "'";
 
             var da = new SqlDataAdapter(sqlStr, conectar());
             var ds = new DataSet();
